@@ -1,0 +1,70 @@
+body {
+  background: #eeeeee;
+  min-height: 100vh;
+}
+
+.white {
+  color: #fff;
+}
+
+.profile-img {
+  border-radius: 100%;
+  border: 2px solid #fff;
+}
+
+.sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #fff;
+}
+
+.hero {
+  padding-top: 70px;
+  background: linear-gradient(#190482, #7752fe);
+  clip-path: polygon(0 0, 100% 0, 100% 91%, 0% 100%);
+}
+
+btn {
+  transition: all 0.3s;
+}
+
+.btn-hire {
+  background: #ffd700;
+  color: #fff;
+  border: 0;
+  font-weight: 500;
+}
+
+.btn-hire:hover {
+  background: #cca300;
+  color: #fff;
+}
+
+.btn-outline-secondary {
+  border: 2px solid #eee;
+  color: #eee;
+  font-weight: 500;
+}
+
+.btn-outline-secondary:hover {
+  background: #fff;
+  border: 0;
+  color: #7752fe;
+}
+
+.gap {
+  gap: 2rem;
+}
+
+.fa-brands {
+  font-size: 30px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  place-content: center;
+}
